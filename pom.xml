@@ -7,13 +7,13 @@
     <parent>
         <artifactId>spring-boot-dependencies</artifactId>
         <groupId>org.springframework.boot</groupId>
-        <version>2.3.4.RELEASE</version>
+        <version>2.7.18</version>
         <relativePath/>
     </parent>
 
     <groupId>com.rpamis</groupId>
     <artifactId>rpamis-security</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>rpamis-security-annotation</module>
@@ -38,8 +38,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <!-- Spring -->
-        <springboot.version>2.3.4.RELEASE</springboot.version>
-        <dubbo.version>3.0.10</dubbo.version>
+        <springboot.version>2.7.18</springboot.version>
         <!-- 存储 -->
         <mybatis-plus.version>3.3.2</mybatis-plus.version>
         <mybatis.version>3.5.10</mybatis.version>
